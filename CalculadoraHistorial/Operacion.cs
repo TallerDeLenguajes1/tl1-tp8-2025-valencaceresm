@@ -54,6 +54,4 @@ public class Operacion
                 return 0;
         }
     }
-
-
 }
