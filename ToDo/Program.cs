@@ -21,7 +21,7 @@ internal class Program
         tareas.Add(tarea4);
         tareas.Add(tarea5);
 
-        Console.WriteLine("Cantidad de tareas en la lista" + tareas.Count);
+        Console.WriteLine("Cantidad de tareas en la lista " + tareas.Count);
 
         /*Console.WriteLine("Ingrese un codigo");
         string input = Console.ReadLine();
@@ -60,7 +60,7 @@ internal class Program
             Console.WriteLine("No se encontro la tarea con el codigo:" + codigo2);
         }*/
 
-        Console.WriteLine("aNTES DEL REMOVE");
+        Console.WriteLine("------ANTES DEL REMOVE------");
 
         foreach (var item in tareas)
         {
@@ -74,7 +74,7 @@ internal class Program
         //0-3
         tareas.RemoveAt(3);
 
-        Console.WriteLine("Desp DEL REMOVE");
+        Console.WriteLine("------DESPUES DEL REMOVE------");
 
         foreach (var item in tareas)
         {
